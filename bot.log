@@ -1,0 +1,13 @@
+2026-02-09 16:41:38,946 - admin_server - INFO - Получен вебхук CryptoBot: invoice_paid
+2026-02-09 16:41:38,950 - admin_server - INFO - Инвойс 43956506 оплачен на сумму 0.5 USDT. UserID: 7789036785
+2026-02-09 16:41:39,597 - admin_server - INFO - Уведомление о пополнении отправлено пользователю 7789036785
+2026-02-09 16:41:39,598 - admin_server - INFO - Баланс пользователя 7789036785 успешно пополнен на 0.5 USDT через Webhook.
+2026-02-09 16:43:43,176 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000230475974D0>
+2026-02-09 16:48:56,965 - admin_server - INFO - Получен вебхук CryptoBot: invoice_paid
+2026-02-09 16:48:56,970 - admin_server - INFO - Инвойс 43957091 оплачен на сумму 0.5 USDT. UserID: 7789036785
+2026-02-09 16:48:57,632 - admin_server - INFO - Сообщение о счете 43957091 удалено.
+2026-02-09 16:48:57,786 - admin_server - INFO - Уведомление о пополнении отправлено пользователю 7789036785
+2026-02-09 16:48:57,786 - admin_server - INFO - Баланс пользователя 7789036785 успешно пополнен на 0.5 USDT через Webhook.
+2026-02-09 16:49:25,356 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000017B927970E0>

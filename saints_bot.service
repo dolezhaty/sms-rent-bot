@@ -1,0 +1,13 @@
+[Unit]
+Description=Saint's SMS Telegram Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/deploy
+ExecStart=/usr/bin/python3 main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

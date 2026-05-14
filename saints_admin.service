@@ -1,0 +1,13 @@
+[Unit]
+Description=Saint's SMS Admin Panel
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/deploy
+ExecStart=/usr/bin/python3 admin_server.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

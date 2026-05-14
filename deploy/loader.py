@@ -1,0 +1,11 @@
+import base64, os, sys, traceback
+# --- [DEBUG] Saints Sms Bot Protection Layer ---
+try:
+    _s = base64.b64decode('ZnJvbSBhaW9ncmFtIGltcG9ydCBCb3QsIERpc3BhdGNoZXIKZnJvbSBhaW9ncmFtLmNvbnRyaWIuZnNtX3N0b3JhZ2UubWVtb3J5IGltcG9ydCBNZW1vcnlTdG9yYWdlCmltcG9ydCBsb2dnaW5nCmZyb20gbG9nZ2luZy5oYW5kbGVycyBpbXBvcnQgUm90YXRpbmdGaWxlSGFuZGxlcgppbXBvcnQgb3MKCmZyb20gc3JjLmNvbmZpZyBpbXBvcnQgVE9LRU4sIERJUgoKIyDQndCw0YHRgtGA0L7QudC60LAg0LvQvtCz0LjRgNC+0LLQsNC90LjRjwpsb2dfZm9ybWF0dGVyID0gbG9nZ2luZy5Gb3JtYXR0ZXIoJyUoYXNjdGltZSlzIC0gJShuYW1lKXMgLSAlKGxldmVsbmFtZSlzIC0gJShtZXNzYWdlKXMnKQpsb2dfZmlsZSA9IG9zLnBhdGguam9pbihESVIsICdib3QubG9nJykKCmZpbGVfaGFuZGxlciA9IFJvdGF0aW5nRmlsZUhhbmRsZXIobG9nX2ZpbGUsIG1heEJ5dGVzPTUqMTAyNCoxMDI0LCBiYWNrdXBDb3VudD01LCBlbmNvZGluZz0ndXRmLTgnKQpmaWxlX2hhbmRsZXIuc2V0Rm9ybWF0dGVyKGxvZ19mb3JtYXR0ZXIpCmZpbGVfaGFuZGxlci5zZXRMZXZlbChsb2dnaW5nLklORk8pCgpjb25zb2xlX2hhbmRsZXIgPSBsb2dnaW5nLlN0cmVhbUhhbmRsZXIoKQpjb25zb2xlX2hhbmRsZXIuc2V0Rm9ybWF0dGVyKGxvZ19mb3JtYXR0ZXIpCmNvbnNvbGVfaGFuZGxlci5zZXRMZXZlbChsb2dnaW5nLklORk8pCgpsb2dnaW5nLmJhc2ljQ29uZmlnKAogICAgbGV2ZWw9bG9nZ2luZy5JTkZPLAogICAgaGFuZGxlcnM9W2ZpbGVfaGFuZGxlciwgY29uc29sZV9oYW5kbGVyXQopCgpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCmJvdCA9IEJvdCh0b2tlbj1UT0tFTiwgcGFyc2VfbW9kZT0iSFRNTCIpCmRwID0gRGlzcGF0Y2hlcihib3QsIHN0b3JhZ2U9TWVtb3J5U3RvcmFnZSgpKQo=').decode('utf-8')
+    _g = globals()
+    _g['__file__'] = os.path.abspath(__file__)
+    exec(_s, _g)
+except Exception:
+    print(f"--- [ERROR] Critical failure in {os.path.basename(__file__)} ---")
+    traceback.print_exc()
+    input("Press Enter to exit...")
